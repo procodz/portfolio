@@ -1,0 +1,41 @@
+portfolio-website/
+│
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   ├── manifest.json
+│   └── placeholder.svg
+│
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Navbar.css
+│   │   ├── Footer.jsx
+│   │   ├── Footer.css
+│   │   ├── Cursor.jsx
+│   │   ├── Cursor.css
+│   │   ├── ProjectCard.jsx
+│   │   ├── ProjectCard.css
+│   │   ├── SkillBar.jsx
+│   │   └── SkillBar.css
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Home.css
+│   │   ├── About.jsx
+│   │   ├── About.css
+│   │   ├── Projects.jsx
+│   │   ├── Projects.css
+│   │   ├── Skills.jsx
+│   │   ├── Skills.css
+│   │   ├── Experience.jsx
+│   │   ├── Experience.css
+│   │   ├── Contact.jsx
+│   │   └── Contact.css
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   └── index.jsx
+│
+├── package.json
+└── README.md
