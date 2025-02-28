@@ -15,8 +15,8 @@ const Projects = () => {
       image: "/images/assit.webp",
       technologies: ["OpenAI GPT-4", "LangChain", "ChromaDB", "Streamlit", "PyPDF2", "Python"],
       category: "ai",
-      github: "https://github.com/",
-      live: "https://example.com/",
+      github: "https://github.com/procodz/context-aware-chatbot",
+      live: "https://github.com/procodz/context-aware-chatbot",
     },
     {
       id: 2,
@@ -26,7 +26,7 @@ const Projects = () => {
         image: "/images/nerdhive.webp",
       technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "Socket.io", "AWS", "Git"],
       category: "web",
-      github: "https://github.com/",
+      github: "https://github.com/procodz/NERDHIVE-backend",
       live: "https://nerdhive.in/",
     },
     {
@@ -37,8 +37,8 @@ const Projects = () => {
       image: "/images/codelens.webp",
       technologies: ["Python", "React", "AI/ML", "Git", "REST"],
       category: "ai",
-      github: "https://github.com/",
-      live: "https://example.com/",
+      github: "https://github.com/procodz/CodeLens",
+      live: "https://github.com/procodz/CodeLens",
     },
   ]
 
