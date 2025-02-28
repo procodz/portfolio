@@ -9,7 +9,7 @@ const Home = () => {
       <div className="home-content">
         <div className="home-text">
           <motion.h1 initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
-            Hi, I'm <span className="highlight">Raghvendra Kumar</span>
+            Hi, I'm <span className="highlight">Raghvendra</span>
           </motion.h1>
 
           <motion.h2
