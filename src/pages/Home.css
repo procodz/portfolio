@@ -59,14 +59,17 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #f0f0f0;
+    background-color: rgba(255, 255, 255, 0.1);
     color: var(--text-color);
     transition: var(--transition);
+    font-size: 1.2rem;
   }
   
   .home-social a:hover {
     background-color: var(--primary-color);
     color: white;
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
   }
   
   .home-image {

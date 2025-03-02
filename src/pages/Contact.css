@@ -21,6 +21,10 @@
     display: flex;
     align-items: flex-start;
     gap: 1rem;
+    background-color: var(--card-bg);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
   }
   
   .info-icon {
@@ -51,6 +55,7 @@
   
   .contact-form {
     background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
     border-radius: 8px;
     padding: 2rem;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
@@ -69,12 +74,14 @@
     font-family: inherit;
     font-size: 1rem;
     transition: var(--transition);
+    background-color: rgba(255, 255, 255, 0.05);
+    color: var(--text-color);
   }
   
   .form-group input:focus,
   .form-group textarea:focus {
     border-color: var(--primary-color);
-    outline: none;
+    background-color: rgba(255, 255, 255, 0.1);
   }
   
   .form-group textarea {
